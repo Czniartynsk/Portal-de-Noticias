@@ -43,3 +43,18 @@ h1, h2, h3 {
   /* está herdando o tipo de font do pai, em vez de pegar direto do navegador */
   font: inherit;
 }
+
+.container {
+  max-width: 1280px;
+  padding-inline: 32px;
+  margin-inline: auto;
+}
+
+/* UTILITY-FIRST */
+.grid {
+  display: grid;
+}
+
+.grid-flow-column {
+  grid-auto-flow: column;
+}
